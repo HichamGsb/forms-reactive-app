@@ -17,4 +17,8 @@ export class AppComponent {
       'gender': new FormControl('male')
     })
   }
+
+  onSubmit() {
+    console.log(this.signupForm)
+  }
 }
